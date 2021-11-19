@@ -8,6 +8,8 @@ You can build the docker container locally by doing:
 $ make build
 ```
 
+You have to be able to code a bit of Python- the scenario rules the simulator uses for each run is defined in the `run_experiment` function.
+
 From there, you can run the docker container by passing the 3 env vars below (adjusting as desired):
 
 ```shell
